@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.image_property{
+    background-image: url("https://source.unsplash.com/random/700×1580/?nature ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.divi1{
+    width: 98.5vw;
+    height: 70vh;
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction{
+    width: 20vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction p{
+    font-size:x-large;
+}
+.divi2{
+    width: 98.5vw;
+    height: 40vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divi2 h3{
+    padding-bottom: 2%;
+    font-size:x-large;
+}
+.divi2 p{
+    width: 80%;
+}
+#divi3,#divi5{
+    height: 50vh;
+    background-image: url("https://source.unsplash.com/random/700×1580/?iseland ");
+}
+#divi4,#divi6{
+    background-color: black;
+    color: white;
+}
+#introduction2{
+    background-color:transparent;
+}
+#introduction2 p{
+    font-size: x-large;
+}
+#divi5{
+    background-image: url("https://source.unsplash.com/random/700×1580/?lakshadweep ");
+}
+#divi7{
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random/700×1580/?nature ");
+}
+@media (max-width: 1155px){
+    .introduction p{
+        font-size:small;
+    }
+    #introduction2 p{
+        font-size: small;
+    }   
+}
+@media (max-width: 1155px){
+    .introduction p{
+        font-size: x-small;
+    }
+    #introduction2 p{
+        font-size: x-small;
+    }   
+}
+@media (max-width: 482px){
+    .introduction p{
+        font-size: xx-small;
+    }
+    #introduction2 p{
+        font-size: xx-small;
+    }   
+    .introduction{
+        width: 40vw;
+        height: 6vh;
+    }    
+}
+@media (max-width: 1024px){
+    .divi2{
+        width: 100vw;
+        height: 60vh;
+    }    
+}
+@media (max-width: 676px){
+    .divi2{
+        width: 100vw;
+        height: 80vh;
+    }    
+}
+@media (max-width: 439px){
+    .divi2{
+        width: 100vw;
+        height: 100vh;
+    }    
+}
+@media (max-width: 334px){
+    .divi2{
+        width: 100vw;
+        height: 130vh;
+    }    
+}
